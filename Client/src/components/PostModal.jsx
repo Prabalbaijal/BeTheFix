@@ -39,7 +39,7 @@ const PostModal = ({ post, onClose }) => {
     };
 
     fetchDetailedComments();
-  }, [post.comments]);
+  }, [post]);
 
 
   const nextImage = () => {
